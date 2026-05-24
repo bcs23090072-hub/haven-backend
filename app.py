@@ -22,10 +22,18 @@ from google import genai
 db = None
 
 try:
-    cred = credentials.Certificate("serviceAccountKey.json")
+    cred_path = os.environ.get(
+        "GOOGLE_APPLICATION_CREDENTIALS",
+        "/etc/secrets/serviceAccountKey.json"
+    )
+
+    cred = credentials.Certificate(cred_path)
+
     firebase_admin.initialize_app(cred)
     db = firestore.client()
+
     print("✅ Firebase database connected successfully!")
+
 except Exception as e:
     print(f"❌ Firebase connection failed: {e}")
 

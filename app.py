@@ -22,12 +22,7 @@ from google import genai
 db = None
 
 try:
-    cred_path = os.environ.get(
-        "GOOGLE_APPLICATION_CREDENTIALS",
-        "/etc/secrets/serviceAccountKey.json"
-    )
-
-    cred = credentials.Certificate(cred_path)
+    cred = credentials.Certificate("serviceAccountKey.json")
 
     firebase_admin.initialize_app(cred)
     db = firestore.client()

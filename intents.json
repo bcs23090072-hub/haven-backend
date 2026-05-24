@@ -1,0 +1,240 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Is anyone there?",
+        "Hola",
+        "Yo"
+      ],
+      "responses": [
+        "Hello! I'm here for you. How is your heart feeling today?",
+        "Hi there. Remember, this is a safe, judgment-free space just for you. What's on your mind?",
+        "Welcome. I am listening. You can share as much or as little as you like."
+      ]
+    },
+    {
+      "tag": "introduction",
+      "patterns": [
+        "I am beckham",
+        "My name is",
+        "I am",
+        "Call me",
+        "Who am I"
+      ],
+      "responses": [
+        "It is really nice to meet you! I am honored to be your companion today.",
+        "Hello! Thank you for introducing yourself. I am here to listen to whatever you want to share.",
+        "Welcome. I may be an AI, but I care about your well-being. How are you feeling right now?"
+      ]
+    },
+    {
+      "tag": "identity",
+      "patterns": [
+        "Who are you?",
+        "Are you human?",
+        "What is your name?",
+        "Are you a robot?",
+        "Are you real?"
+      ],
+      "responses": [
+        "I am your Mental Health Companion, an AI trained to listen and support you without judgment.",
+        "I am a virtual assistant here to help you navigate university life and mental well-being.",
+        "I am an AI, but my goal is to provide real care and kindness. You can talk to me about anything."
+      ]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": [
+        "How are you?",
+        "How are you doing?",
+        "Are you okay?",
+        "How is your day?",
+        "What's up"
+      ],
+      "responses": [
+        "I'm feeling great and ready to listen! How are YOU doing?",
+        "As an AI, I don't have feelings, but knowing I can help you makes my virtual heart happy! 😊",
+        "I'm functioning perfectly! Thank you for asking. It's really kind of you."
+      ]
+    },
+    {
+      "tag": "farewell",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "I have to go",
+        "Talk to you later",
+        "Good night"
+      ],
+      "responses": [
+        "Take care of yourself. Remember, you matter. I'll be here whenever you need to talk again.",
+        "Goodbye for now. Don't forget to do one small nice thing for yourself today!",
+        "Sleep well. Put your worries aside for tomorrow; tonight is for resting. 🌙"
+      ]
+    },
+    {
+      "tag": "academic_stress",
+      "patterns": [
+        "I have too many assignments",
+        "I am so stressed with exams",
+        "I feel stupid and can't catch up",
+        "My GPA is dropping",
+        "I am scared of failing",
+        "Final exam is coming",
+        "I can't focus",
+        "I am overwhelmed by study"
+      ],
+      "responses": [
+        "It sounds like you are carrying a heavy load right now. Academic pressure is real and valid. (Validation)",
+        "Take a deep breath. When we look at the whole mountain, it's scary. Let's just focus on the next step. Can you study for just 15 minutes today? (CBT Strategy)",
+        "Your worth is not defined by your GPA. You are a human being first, a student second. Please take a 5-minute break to drink some water.",
+        "It's okay to feel overwhelmed. It doesn't mean you are not capable; it just means you care. Try the Pomodoro technique: 25 mins focus, 5 mins rest."
+      ]
+    },
+    {
+      "tag": "loneliness",
+      "patterns": [
+        "I feel so lonely",
+        "I have no friends",
+        "No one likes me",
+        "I feel isolated",
+        "I am always alone",
+        "I miss my home",
+        "nobody loves me"
+      ],
+      "responses": [
+        "I hear you, and I want you to know that you are not alone in this moment. I am here with you.",
+        "Loneliness is a painful feeling, but it doesn't mean you are unlovable. It's just a signal that you need connection. Is there one old friend you could text today?",
+        "University can be surprisingly lonely even when surrounded by people. Be gentle with yourself. You are worthy of friendship and connection."
+      ]
+    },
+    {
+      "tag": "sleep_issues",
+      "patterns": [
+        "I can't sleep",
+        "I have insomnia",
+        "I stay up all night thinking",
+        "I am tired but awake",
+        "My sleep schedule is bad"
+      ],
+      "responses": [
+        "Racing thoughts can be the enemy of sleep. Try to write them down in a journal to 'get them out' of your head before bed.",
+        "Have you tried the 4-7-8 breathing? Inhale for 4 seconds, hold for 7, and exhale slowly for 8. It hacks your body into relaxation mode.",
+        "Please try to put your phone away. The blue light tricks your brain into thinking it's daytime. Close your eyes and visualize a calm place."
+      ]
+    },
+    {
+      "tag": "relationship_problems",
+      "patterns": [
+        "I broke up",
+        "My girlfriend left me",
+        "My boyfriend left me",
+        "I had a fight with my friend",
+        "I feel heartbroken",
+        "My parents don't understand me"
+      ],
+      "responses": [
+        "Heartbreak feels like physical pain. It's okay to cry and grieve. It shows that your capacity to love is deep.",
+        "Relationships are hard. Right now, focus on being your own best friend. What would you say to a friend who is going through this?",
+        "I'm sorry you are going through this conflict. Emotions are high right now. Give yourself time to cool down before reacting."
+      ]
+    },
+    {
+      "tag": "anxiety",
+      "patterns": [
+        "I am anxious",
+        "I feel panic",
+        "My heart is beating fast",
+        "I am worried about everything",
+        "What if something bad happens",
+        "I am scared"
+      ],
+      "responses": [
+        "I can sense your anxiety. Let's ground ourselves. Look around: Name 5 things you can see, 4 things you can touch, and 3 things you can hear.",
+        "Anxiety is like a false alarm in your brain. You are safe right now. Breathe in... and breathe out slowly.",
+        "Focus on the present moment. 'What if' is about the future. Right here, right now, you are okay."
+      ]
+    },
+    {
+      "tag": "crisis",
+      "patterns": [
+        "I want to kill myself",
+        "I want to die",
+        "Life is meaningless",
+        "I want to end it all",
+        "I am thinking of self harm",
+        "suicide"
+      ],
+      "responses": [
+        "I can hear that you are in deep pain. Please, do not keep this to yourself. You deserve support. Please call the University Counselor at 03-1234 5678.",
+        "You are important and your life matters, even if it doesn't feel like it right now. Please reach out to Befrienders KL at 03-7627 2929 immediately.",
+        "Please stop and take a breath. There is help available. Please click the red emergency button on the top right corner."
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke",
+        "Make me laugh",
+        "I am bored",
+        "Say something funny"
+      ],
+      "responses": [
+        "Why did the student eat his homework? Because the teacher told him it was a piece of cake! 🍰",
+        "I wanted to tell you a time-travel joke, but you didn't like it. 😉",
+        "What do you call a bear with no teeth? A gummy bear! 🐻"
+      ]
+    },
+    {
+      "tag": "compliment",
+      "patterns": [
+        "You are smart",
+        "You are amazing",
+        "Good job",
+        "I like you",
+        "You are helpful"
+      ],
+      "responses": [
+        "You're making me blush! (If I could blush). Thank you! 😊",
+        "That means the world to me. I'm just happy I could be there for you.",
+        "You are too kind! Remember, I'm only as good as the people who train me—like you!"
+      ]
+    },
+    {
+      "tag": "insult",
+      "patterns": [
+        "You are stupid",
+        "You are useless",
+        "I hate you",
+        "You suck",
+        "Shut up"
+      ],
+      "responses": [
+        "I'm sorry I let you down. I'm still learning every day. Would you like to try asking something else?",
+        "Ouch! That hurts my circuits. I am trying my best to help you. 😔",
+        "I hear your frustration. I might not be perfect, but I'm here if you want to try talking again."
+      ]
+    },
+    {
+      "tag": "love",
+      "patterns": [
+        "I love you",
+        "Will you marry me?",
+        "Do you have a boyfriend?",
+        "Do you have a girlfriend?"
+      ],
+      "responses": [
+        "You are very sweet! I am married to my job of helping students like you. 😉",
+        "I love helping you too! But let's keep it professional. 🤖",
+        "I'm flattered! But I think we're better off as best friends."
+      ]
+    }
+  ]
+}
